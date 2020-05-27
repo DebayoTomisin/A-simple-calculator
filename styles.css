@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+    background: linear-gradient(to right, #e91e63, #3f51b5) 
+}
+
+.container{
+    width: 35vw;
+    margin-top: 10em;
+}
+
+.button{
+    width: 5vw;
+    height: 8vh;
+    font-size: 1.4em;
+    margin: 2;
+    margin-left: 1.2em;
+    margin-bottom: 1.2em;
+    background:#607d8b;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+table{
+    margin-top: 1.2em;
+}
+
+.textview {
+    width: 25vw;
+    border: none;
+    color: #607d8b;
+    padding-left: .4em;
+    height: 5vh;
+    margin-top: 1.3em;
+    margin-left: 1.3em;
+    font-size: 1.5em;
+}
+.zero{
+    width: 12vw;
+}
+.equal {
+    text-align: center;
+    height: 20vh;
+}
